@@ -1,5 +1,10 @@
 /**
- * basic undesrtanding of dependency injection
+ * Dependency Injection (DI) is a design pattern commonly used in software
+ * development, especially in frameworks like Spring Boot. It facilitates loose
+ * coupling between classes by delegating the responsibility of providing
+ * dependent objects to an external entity, typically a framework or container.
+ * This allows for easier maintenance, testing, and flexibility in managing
+ * object dependencies.
  * 
  * @author wasif
  * @version 1.0
