@@ -54,7 +54,7 @@ class ServiceRegistry {
         // Retrieve the service URL from the registryMap
         String serviceUrl = registryMap.get(serviceName);
         if (serviceUrl != null) {
-            System.out.println("Discovered service: " + serviceName + " at URL: " + serviceUrl);
+            System.out.println("Discovered service: " + serviceName);
             return serviceUrl;
         } else {
             System.out.println("Service not found: " + serviceName);
@@ -72,6 +72,9 @@ public class ServiceRegistryPattern {
         ServiceRegistration registration = new ServiceRegistration("UserService", "http://localhost:8081", registry);
 
         // Service discovery
-        registry.discoverService("UserService");
+        String userServiceUrl = registry.discoverService("UserService");
+        if (userServiceUrl != null) {
+            System.out.println("User service URL: " + userServiceUrl);
+        }
     }
 }
