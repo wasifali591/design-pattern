@@ -1,5 +1,5 @@
 
-# Design Patterns Repository
+# Design Patterns
 
 This repository contains examples and implementations of various design patterns in Java.
 
