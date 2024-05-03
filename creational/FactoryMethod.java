@@ -11,7 +11,6 @@
  * @since 02/05/2024
  */
 
-
 // Shape interface
 interface Shape {
     void draw(); // Method to draw the shape

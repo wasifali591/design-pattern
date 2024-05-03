@@ -1,3 +1,4 @@
+
 /**
  * The Bulkhead pattern is a design pattern used in distributed systems to improve fault isolation and
  * resilience by limiting the impact of failures in one part of the system on other parts. It's named

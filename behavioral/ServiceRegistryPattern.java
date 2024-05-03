@@ -1,3 +1,4 @@
+
 /**
  * The Service Registry pattern is a design pattern used in distributed systems to provide a centralized
  * repository for storing and discovering services. In a microservices architecture, where multiple
@@ -9,7 +10,6 @@
  * @since 02/05/2024
  */
 
- 
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,7 +19,8 @@ class ServiceRegistration {
     private String serviceUrl;
     private ServiceRegistry registry;
 
-    // Constructor to initialize ServiceRegistration with serviceName, serviceUrl, and registry
+    // Constructor to initialize ServiceRegistration with serviceName, serviceUrl,
+    // and registry
     public ServiceRegistration(String serviceName, String serviceUrl, ServiceRegistry registry) {
         this.serviceName = serviceName;
         this.serviceUrl = serviceUrl;
@@ -69,7 +70,8 @@ public class ServiceRegistryPattern {
         ServiceRegistry registry = new ServiceRegistry();
 
         // Service registration
-        ServiceRegistration registration = new ServiceRegistration("UserService", "http://localhost:8081", registry);
+        // ServiceRegistration registration =
+        new ServiceRegistration("UserService", "http://localhost:8081", registry);
 
         // Service discovery
         String userServiceUrl = registry.discoverService("UserService");

@@ -11,7 +11,6 @@
  * @since 02/05/2024
  */
 
-
 // Product class representing a computer
 class Computer {
     // Fields representing different components of a computer

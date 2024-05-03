@@ -1,6 +1,7 @@
 
-/**The Model-View-Controller (MVC) pattern is a widely used architectural pattern for developing user interfaces.
- * In the context of Spring Boot, MVC is commonly used for building web applications.
+/**
+ * The Model-View-Controller (MVC) pattern is a widely used architectural pattern for developing user 
+ * interfaces. In the context of Spring Boot, MVC is commonly used for building web applications.
  * 
  * @author wasif
  * @version 1.0

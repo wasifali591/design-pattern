@@ -118,8 +118,8 @@ public class DataAccessObject {
 
         // Retrieve the user by id
         User retrievedUser = userDao.getUserById(1);
-        System.out.println("Retrieved User: " + retrievedUser.getId() + " " +retrievedUser.getUsername()
-         + " " + retrievedUser.getEmail());
+        System.out.println("Retrieved User: " + retrievedUser.getId() + " " + retrievedUser.getUsername()
+                + " " + retrievedUser.getEmail());
 
         // Update the user's email
         retrievedUser.setEmail("wasi.ali@mail.com");

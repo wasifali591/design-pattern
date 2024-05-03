@@ -10,7 +10,6 @@
  * @since 02/05/2024
  */
 
-
 // Abstract class defining the template method for preparing a beverage
 abstract class BeverageRecipe {
     // Template method defining the algorithm's structure

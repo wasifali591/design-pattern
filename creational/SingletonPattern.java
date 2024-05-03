@@ -9,8 +9,7 @@
  * @since 02/05/2024
  */
 
-
-//Singleton class
+// Singleton class
 class Singleton {
     // Private static variable to hold the single instance of the class
     private static Singleton instance;
@@ -34,7 +33,7 @@ class Singleton {
     }
 }
 
-//main
+// main
 public class SingletonPattern {
     public static void main(String[] args) {
         // Get the singleton instance
