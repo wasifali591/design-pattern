@@ -1,3 +1,13 @@
+/**
+ * The Saga pattern is a design pattern used to manage distributed transactions across multiple
+ * microservices in a distributed system. It allows you to maintain data consistency and ensure that all
+ * services involved in a transaction either complete successfully or rollback in case of a failure.
+ * 
+ * @author wasif
+ * @version 1.0
+ * @since 03/05/2024
+ */
+
 import java.util.concurrent.ThreadLocalRandom;
 
 // BookingService class responsible for booking a hotel room
